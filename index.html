@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Shopping Cart</h1>
+      <div class="cart-item" data-price="50">
+        <img
+          src="https://images.unsplash.com/photo-1589310853228-439adca878e8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29udmVyc2V8ZW58MHx8MHx8fDA%3D"
+          alt="Product 1"
+        />
+        <div class="item-details">
+          <p class="item-name">Converse</p>
+          <div class="quantity-controls">
+            <button class="quantity-btn minus">-</button>
+            <span class="quantity">1</span>
+            <button class="quantity-btn plus">+</button>
+          </div>
+        </div>
+        <div class="item-actions">
+          <button class="like-btn">&#x2764;</button>
+          <button class="delete-btn">Delete</button>
+          <p class="item-price">$ <span class="price"> 50.00 </span></p>
+        </div>
+      </div>
+      <div class="cart-item" data-price="30">
+        <img
+          src="https://images.unsplash.com/photo-1581655353564-df123a1eb820?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Product 2"
+        />
+        <div class="item-details">
+          <p class="item-name">T-shirt</p>
+          <div class="quantity-controls">
+            <button class="quantity-btn minus">-</button>
+            <span class="quantity">1</span>
+            <button class="quantity-btn plus">+</button>
+          </div>
+        </div>
+        <div class="item-actions">
+          <button class="like-btn">&#x2764;</button>
+          <button class="delete-btn">Delete</button>
+          <p class="item-price">$ <span class="price">30.00</span></p>
+        </div>
+      </div>
+      <div class="total-price">
+        <h2>Total: $ <span class="price">80.00</span></h2>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
